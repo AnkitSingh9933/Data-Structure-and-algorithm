@@ -1,5 +1,6 @@
 int findDuplicate(vector<int> &arr) 
-{
+{//TIME COMPLEXITY O(N) SPACE-O(1);
+	
    int ans = 0;
    
    for(int i = 0; i < arr.size(); i++){

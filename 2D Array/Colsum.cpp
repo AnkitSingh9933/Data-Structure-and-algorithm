@@ -6,10 +6,11 @@ void printraw(int arr[][4], int raw, int col)
     for (int col = 0; col < 4; col++)
     {
         int sum = 0;
+        
         for (int raw = 0; raw < 3; raw++)
         {
               
-            sum += arr[col][raw];
+            sum += arr[raw][col];
             
         }
         cout << sum<<" ";
